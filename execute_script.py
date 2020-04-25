@@ -18,6 +18,7 @@ try:
     answer.send_keys(y)
     # прокручиваем страницу вниз
     browser.execute_script("window.scrollBy(0, 100);")
+    
     # или прокручиваем на центр кнопки button
     #button = browser.find_element_by_tag_name("button")
     #browser.execute_script("return arguments[0].scrollIntoView({block: 'center'});", button)
